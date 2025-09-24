@@ -1,0 +1,35 @@
+/* Footer Links */
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  color: #ffc107; /* Bootstrap yellow */
+}
+
+/* Social Media Icons */
+.icon {
+  color: white;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.icon.facebook:hover {
+  color: #1877f2;
+}
+
+.icon.instagram:hover {
+  color: #e1306c;
+}
+
+.icon.whatsapp:hover {
+  color: #25d366;
+}
+

@@ -1,0 +1,47 @@
+.btn-deep-yellow {
+  background-color: #e0a800 !important;
+  color: #212529;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-deep-yellow:hover {
+  background-color: #c89900  !important;
+  color: white;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.product-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(255, 193, 7, 0.5);
+}
+
+/* Deep yellow button */
+.btn-deep-yellow {
+  background-color: #FFB300;
+  color: #212529;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-deep-yellow:hover {
+  background-color: #e0a800;
+  color: white;
+}
