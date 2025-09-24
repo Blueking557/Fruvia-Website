@@ -15,7 +15,7 @@ export default function Contact() {
         <Row className="align-items-center">
           <Col md={6} className="mb-4">
             <h5>📞 Phone:</h5>
-            <p>+234 903 239 70</p>
+            <p>+234 8104 2640</p>
 
             <h5>📧 Email:</h5>
             <p>fruvia@gmail.com</p>
@@ -26,7 +26,7 @@ export default function Contact() {
             <div className="mt-3">
               <Button
                 variant="dark"
-                href="tel:+2349032239670"
+                href="tel:+23481052640"
                 className="me-2"
               >
                 Call Now

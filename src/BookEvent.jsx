@@ -19,7 +19,7 @@ export default function BookEvent() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const phoneNumber = "2348036060278"; 
+    const phoneNumber = "23481042640"; 
     const text = `Hello Fruvia! 🍹\n\nMy name is ${formData.name}.\nEmail: ${formData.email}\nEvent Type: ${formData.eventType}\nMessage: ${formData.message}`;
 
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;

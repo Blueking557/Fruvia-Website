@@ -46,7 +46,7 @@ export default function Footer() {
               <a href="https://instagram.com" target="_blank" rel="noreferrer" className="icon instagram">
                 <Instagram size={28} />
               </a>
-              <a href="https://wa.me/2349032239670" target="_blank" rel="noreferrer" className="icon whatsapp">
+              <a href="https://wa.me/2348105172640" target="_blank" rel="noreferrer" className="icon whatsapp">
                 <Whatsapp size={28} />
               </a>
             </div>
